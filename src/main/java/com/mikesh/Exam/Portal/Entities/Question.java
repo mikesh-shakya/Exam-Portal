@@ -3,18 +3,19 @@ package com.mikesh.Exam.Portal.Entities;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.data.annotation.Id;
+import lombok.ToString;
 import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.util.Map;
 
 @Getter
 @Setter
+@ToString
 @AllArgsConstructor
-@Document(collection = "Catolorian")
+@Document(collection = "Question")
 public class Question {
-    @Id
-    private String questionId;
     private String question;
-    private String[] options;
-    private String correctAnswer;
+    private Map<String, Boolean> options;
+    private String explaination; // TODO : optimise
 
 }
