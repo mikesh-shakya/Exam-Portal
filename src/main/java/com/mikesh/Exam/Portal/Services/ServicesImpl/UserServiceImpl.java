@@ -4,6 +4,7 @@ import com.mikesh.Exam.Portal.Entities.User;
 import com.mikesh.Exam.Portal.Repositories.UserRepo;
 import com.mikesh.Exam.Portal.Services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service

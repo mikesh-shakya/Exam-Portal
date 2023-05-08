@@ -3,3 +3,6 @@ spring:
     mongodb:
       uri: mongodb+srv://mikesh:mikesh21@catolorian.4xrrruq.mongodb.net/?retryWrites=true&w=majority
       database: Catolorian
+
+server:
+  port: 8069
