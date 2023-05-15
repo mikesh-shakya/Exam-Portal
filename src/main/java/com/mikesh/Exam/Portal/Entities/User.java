@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class User {
     private String firstName;
     private String lastName;
+    private String email; // TODO : email constrains
     private String username; // TODO : username unique constraint
     private String password; // TODO : password constrains
-    private String email; // TODO : email constrains
 }

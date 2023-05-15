@@ -15,7 +15,10 @@ import java.util.Map;
 @Document(collection = "Question")
 public class Question {
     private String question;
-    private Map<String, Boolean> options;
-    private String explaination; // TODO : optimise
+    private String section;
+    private String topic;
+    private String category;
+//    private Map<String, Boolean> options;
+//    private String explaination; // TODO : optimise
 
 }
